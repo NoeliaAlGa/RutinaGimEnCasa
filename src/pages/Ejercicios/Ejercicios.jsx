@@ -4,12 +4,12 @@ import ImgAbdomenPlano from "../../img/iconos secciones/abdomenplano.png";
 import ImgGluteos from "../../img/iconos secciones/gluteos.png";
 import ImgPesas from "../../img/iconos secciones/pesas.png";
 import Card from "react-bootstrap/Card";
-import { CardsDiv, CardDiv, ImgCard } from "./style/EjerciciosStyle";
+import { CardsDiv, CardDiv, ImgCard, H1Style, DivEjercicios } from "./style/EjerciciosStyle";
 
 const Ejercicios = () => {
   return (
-    <div>
-      <h1>Ejercicios</h1>
+    <DivEjercicios>
+      <H1Style>Ejercicios</H1Style>
       <h3>Que quieres hacer?</h3>
       <CardsDiv>
         <CardDiv>
@@ -37,7 +37,7 @@ const Ejercicios = () => {
           </Card.Body>
         </CardDiv>
       </CardsDiv>
-    </div>
+    </DivEjercicios>
   );
 };
 

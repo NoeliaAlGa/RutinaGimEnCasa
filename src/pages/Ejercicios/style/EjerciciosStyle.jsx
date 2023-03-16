@@ -1,11 +1,19 @@
 import styled from "styled-components";
 import Card from 'react-bootstrap/Card';
 
-
+export const DivEjercicios = styled.div `
+    background-color: lightgray;
+    height: 450px;
+    border-radius: 20px;
+` 
 
 export const CardsDiv = styled.div `
     display: flex;
     justify-content: center;
+`
+export const H1Style = styled.h1 `
+    background-color: orange;
+    padding: 10px;
 `
 export const CardDiv = styled(Card) `
     background-color: white;
@@ -16,10 +24,10 @@ export const CardDiv = styled(Card) `
     border-radius: 10%;
     font-weight: bolder;
     font-size: large;
-    border: none;
+    border: solid 6px black;
     transition: border .5s;
     &:hover {
-        border: solid 6px darkblue;
+        border: solid 6px orange;
     }
 `
 
