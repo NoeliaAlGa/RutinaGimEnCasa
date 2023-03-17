@@ -1,5 +1,5 @@
-#Ejercicios de Gimnasia en Casa
-Este sitio web es una plataforma para encontrar rutinas de ejercicios de gimnasia para hacer en casa. Contiene una amplia variedad de ejercicios sencillos. 
+Ejercicios de Gimnasia en Casa
+* Este sitio web es una plataforma para encontrar rutinas de ejercicios de gimnasia para hacer en casa. Contiene una amplia variedad de ejercicios sencillos. 
 
 Características
 * Ejercicios por categoría.
