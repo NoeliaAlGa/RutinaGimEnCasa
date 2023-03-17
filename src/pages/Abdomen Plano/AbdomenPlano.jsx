@@ -13,9 +13,8 @@ import Ej7 from "../../img/abdomen plano/ej7.jpg";
 import Ej8 from "../../img/abdomen plano/ej8.jpg";
 import Ej9 from "../../img/abdomen plano/ej9.jpg";
 import Ej10 from "../../img/abdomen plano/ej10.jpg";
-import {LittleImg, ImgGrande, ColStyle, DivTitulo, ImgIconoAbdomen, ButtonsDiv, ButtonsStyle} from './style/AbdomenStyle';
+import {LittleImg, ImgGrande, ColStyle, DivTitulo, ImgIconoAbdomen, ButtonsDiv, ButtonsStyle} from '../style/ApartadosStyle';
 import { Link } from "react-router-dom";
-import QuemaGrasaPesas from '../QuemaGrasaPesas/QuemaGrasaPesas';
 
 const AbdomenPlano = () => {
   const [ImgActual, setImgActual] = useState(Ej1);

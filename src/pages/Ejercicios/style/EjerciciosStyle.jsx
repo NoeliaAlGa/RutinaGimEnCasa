@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 export const DivEjercicios = styled.div `
     background-color: lightgray;
-    height: 450px;
+    height: 470px;
     border-radius: 20px;
 ` 
 

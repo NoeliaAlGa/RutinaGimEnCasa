@@ -27,6 +27,7 @@ export const ImgGrande = styled.img `
     border-radius: 5%;
     border: solid 6px orange;
     height: 200px;
+    margin-bottom: 1rem;
 `
 
 export const LittleImg = styled.img `
@@ -44,6 +45,7 @@ export const LittleImg = styled.img `
 export const ButtonsDiv = styled.div `
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 `
 
 export const ButtonsStyle = styled.button`
